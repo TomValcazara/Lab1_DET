@@ -1,0 +1,2 @@
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

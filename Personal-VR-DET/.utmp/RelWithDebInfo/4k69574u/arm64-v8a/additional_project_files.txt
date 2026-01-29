@@ -1,0 +1,17 @@
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\GAToUnityCallbacks.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroEnd.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroHeaderBegin.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroSourceBegin.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAApplication.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAConfiguration.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGADebug.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAEvents.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAInput.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboard.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboardCallbacks.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGATypes.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAVersion.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGACallbacks.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
+C:\GIT\UnityProjects\Lab1_DET\Personal-VR-DET\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h
