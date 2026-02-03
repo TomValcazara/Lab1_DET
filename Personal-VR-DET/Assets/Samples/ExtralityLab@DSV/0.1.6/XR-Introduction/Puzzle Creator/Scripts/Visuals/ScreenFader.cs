@@ -93,3 +93,11 @@ public class ScreenFader : MonoBehaviour
         m_IsFading = false;
     }
 }
+
+public class PersistentObject : MonoBehaviour
+{
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+}
