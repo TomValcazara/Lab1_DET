@@ -185,8 +185,7 @@ public class WebSocketClientExample : MonoBehaviour
 
 
         if (msg.Contains("reset"))
-        { //If the first part of the websocket message contains "button"
-
+        { 
             if (valueParsed == "1")
 
             {
@@ -196,6 +195,13 @@ public class WebSocketClientExample : MonoBehaviour
 
             }
 
+        }
+
+        if (msg.Contains("FLIPPERPOWER"))
+        {
+            float newPower = float.Parse(valueParsed);
+            flipper.SetPower(newPower);
+            Debug.Log("Flipper Power changed via WebSocket");
         }
 
     }
