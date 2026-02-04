@@ -2,6 +2,8 @@ using UnityEngine;
 using NativeWebSocket;
 using UnityEngine.Events;
 using System;
+using UnityEngine.UI;
+
 
 
 #if UNITY_EDITOR
@@ -16,6 +18,8 @@ public class WebSocketClientExample : MonoBehaviour
 
     public FlipperXR flipper;
 
+    public SceneCompletion SceneReload;
+    
     [Range(0, 255)]
     public int ledIntensity = 0;
 
@@ -119,6 +123,32 @@ public class WebSocketClientExample : MonoBehaviour
         }
     }
 
+    public async void SendLEDWinON()
+    {
+        if (websocket != null && websocket.State == WebSocketState.Open)
+        {
+            await websocket.SendText("WIN_LED:1");
+            Debug.Log("Sent: WIN_LED:1");
+        }
+        else
+        {
+            Debug.LogWarning("WebSocket not connected");
+        }
+    }
+
+    public async void SendLEDWinOFF()
+    {
+        if (websocket != null && websocket.State == WebSocketState.Open)
+        {
+            await websocket.SendText("WIN_LED:0");
+            Debug.Log("Sent: WIN_LED:0");
+        }
+        else
+        {
+            Debug.LogWarning("WebSocket not connected");
+        }
+    }
+
     public void IncomingMessageParser(String msg)
     {
 
@@ -148,6 +178,21 @@ public class WebSocketClientExample : MonoBehaviour
                 flipper.puzzleAudioSource.PlayOneShot(flipper.deactivateSound); //Triggers deactivation sound
 
                 Debug.Log("Flipper Deactivated via WebSocket");
+
+            }
+
+        }
+
+
+        if (msg.Contains("reset"))
+        { //If the first part of the websocket message contains "button"
+
+            if (valueParsed == "1")
+
+            {
+
+                SceneReload.ReloadLevel();
+                Debug.Log("Scene reseted via WebSocket");
 
             }
 

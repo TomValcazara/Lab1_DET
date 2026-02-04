@@ -15,17 +15,25 @@ public class EditorButton : Editor
         {
             myScript.SendHello();
         }
-                if (GUILayout.Button("Send \"LED ON\" instruction"))
+        if (GUILayout.Button("Send \"LED ON\" instruction"))
         {
             myScript.SendLedON();
         }
-                if (GUILayout.Button("Send \"LED OFF\" instruction"))
+        if (GUILayout.Button("Send \"LED OFF\" instruction"))
         {
             myScript.SendLedOFF();
         }
-                if (GUILayout.Button("Send \"LED Intensity\" instruction"))
+        if (GUILayout.Button("Send \"LED Intensity\" instruction"))
         {
             myScript.SendLedIntensity();
+        }
+        if (GUILayout.Button("Send \"LED WIN ON\" instruction"))
+        {
+            myScript.SendLEDWinON();
+        }
+        if (GUILayout.Button("Send \"LED WIN OFF\" instruction"))
+        {
+            myScript.SendLEDWinOFF();
         }
     }
 }

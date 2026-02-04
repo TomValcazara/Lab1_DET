@@ -10,6 +10,7 @@ public class SceneCompletion : MonoBehaviour
 {
     public ScreenFader screenFader;
     public GameObject panel;
+    public WebSocketClientExample WebSocketClient;
 
     // Called when target of level is achieved
     public void CompleteLevel (float time)
@@ -21,5 +22,6 @@ public class SceneCompletion : MonoBehaviour
     public void ReloadLevel ()
     {
         screenFader.FadeOut(() => SceneManager.LoadSceneAsync (gameObject.scene.buildIndex));
+        WebSocketClient.SendLEDWinOFF();
     }
 }

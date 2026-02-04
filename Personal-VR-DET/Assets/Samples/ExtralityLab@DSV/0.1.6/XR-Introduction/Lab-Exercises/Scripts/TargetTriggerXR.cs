@@ -10,6 +10,7 @@ public class TargetTriggerXR : MonoBehaviour
     public TimingRecordingXR timingRecording;
     public TargetGroupWeightControl targetGroupWeightControl;
     public ParticleSystem completeParticleSystem;
+    public WebSocketClientExample WebSocketClient;
 
     AudioSource m_AudioSource;
 
@@ -26,6 +27,8 @@ public class TargetTriggerXR : MonoBehaviour
             timingRecording.GoalReached (uiDelay);
 //            targetGroupWeightControl.ApplySpecificFocus (marble.attachedRigidbody);
             m_AudioSource.PlayOneShot (m_AudioSource.clip);
+            WebSocketClient.SendLEDWinON();
+            
         }
     }
 }
