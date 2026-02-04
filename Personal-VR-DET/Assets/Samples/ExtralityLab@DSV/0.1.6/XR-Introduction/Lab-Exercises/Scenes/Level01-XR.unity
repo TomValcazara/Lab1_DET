@@ -2483,6 +2483,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7400117591718497273, guid: d3424646437583d43b2e7962f2e2ddb1, type: 3}
   m_PrefabInstance: {fileID: 7400117589738838402}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1434183549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1434183551}
+  - component: {fileID: 1434183550}
+  m_Layer: 0
+  m_Name: MqttClientManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1434183550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434183549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929097cc73ad448c9b244c29d1cdec93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExtralityLab.MqttClientExampleReceiveDigital
+  brokerAddress: inf-liva-server-eth.dsv.local.su.se
+  brokerPort: 1883
+  isEncrypted: 0
+  connectionDelay: 500
+  timeoutOnConnection: 30000
+  autoConnect: 1
+  mqttUserName: unity
+  mqttPassword: extrality
+  subscribedTopic: 3ca2/D0_BoardBtn
+  autoSubscribe: 1
+  flipper: {fileID: 1958457479}
+  currentState: 0
+--- !u!4 &1434183551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434183549}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.37941, y: 0, z: 3.81317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1446070509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1894888565, guid: 98e6bb87a6bb047eb8304513202db8df, type: 3}
@@ -2962,6 +3018,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 972189089}
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+--- !u!114 &1958457479 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8143725484479230084, guid: caa213cf95188443098e80837db19a73, type: 3}
+  m_PrefabInstance: {fileID: 5705112864281077526}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6984567fbd7ce4f1ea4e0134b831c1f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipperXR
 --- !u!4 &1961718280 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 384889229971728208, guid: ef838aad987e6224cb9674bda577603a, type: 3}
@@ -3419,3 +3486,4 @@ SceneRoots:
   - {fileID: 1230515832}
   - {fileID: 1875956595}
   - {fileID: 1257133592}
+  - {fileID: 1434183551}
